@@ -1,0 +1,21 @@
+rule <rule Name>
+{
+  meta:
+    // Stores arbitrary key-value pairs of rule details, such as who wrote
+    // it, what it detects on, version control, etc.
+    // Identical to the meta section in YARA-L.
+    //
+    // For example:
+    // author = "Analyst #2112"
+    // date = "08/09/2020"
+    // description = "suspicious domain detected"
+
+  events:
+    // Conditions to filter events and the relationship between events.
+
+  match:
+    // Values to return when matches are found.
+
+  condition:
+    // Condition to check events and the variables used to find matches.
+}
